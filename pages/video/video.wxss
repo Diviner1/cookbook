@@ -1,0 +1,9 @@
+/* pages/video/video.wxss */
+swiper{
+  width:100%;
+  height:600rpx;
+}
+swipwe{
+  with:100%;
+  height:600rpx;
+}

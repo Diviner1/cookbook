@@ -1,0 +1,183 @@
+
+  
+  
+  
+/* 框架 */
+ 
+.talks-layer { 
+position: absolute; 
+bottom: -100%; 
+height: 0; 
+width: 100%; 
+overflow: hidden; 
+  
+}
+  
+ 
+.layer-white-space { 
+height: 100%; 
+width: 100%; 
+background-color: #ccc; 
+opacity: 0.5; 
+/* background-color: green; */
+  
+}
+  
+  
+.talks { 
+position: absolute; 
+height: 900rpx; 
+width: 100%; 
+bottom: 0rpx; 
+background-color: #2f2d2e; 
+border-top-left-radius: 3%; 
+border-top-right-radius: 3%;
+  
+}
+  
+  
+
+  
+  
+.talk-body { 
+height: 700rpx; 
+}
+
+
+  
+.footer_box { 
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 100%;
+  
+}
+  
+  
+  
+/* 顶部元素 */
+.talk-count { 
+font-size: 26rpx; 
+height: 40rpx; 
+color: #6b696a;
+}
+ 
+  
+.talk-close {
+position: absolute;
+top: 30rpx; 
+right: 40rpx; 
+width: 40rpx; 
+height: 40rpx;
+  
+}
+  
+  
+/* 中部元素 */
+.talk-item { 
+display: flex; 
+flex-direction: row; 
+align-items: flex-start; 
+width: 100%; 
+color: white;
+  
+}
+  
+  
+.talk-item-left { 
+display: flex; 
+flex-direction: row; 
+margin: 20rpx 30rpx; 
+}
+  
+  
+.talk-item-face { 
+width: 80rpx; 
+height: 80rpx;
+border-radius: 50%;
+  
+}
+  
+  
+.talk-item-right { 
+width: 100%; 
+border-bottom: solid 1rpx #6a6869; 
+margin-right: 30rpx; 
+/* margin-bottom: 30rpx; */
+padding-bottom: 20rpx;
+  
+}
+  
+  
+.right-left { 
+display: flex; 
+justify-content: space-between; 
+align-items: center; 
+margin: 10px 0;
+  
+}
+  
+  
+.talk-item-nickname { 
+font-size: 28rpx; 
+color: #aaa8a9; 
+}
+  
+  
+.talk-item-time { 
+font-size: 24rpx; 
+color: #6a6869;
+  
+}
+  
+  
+.talk-item-content {
+display: block; 
+font-size: 30rpx;
+margin-right: 30rpx; 
+width: 92%; 
+white-space: pre-line; 
+word-break: break-all; 
+word-wrap: break-word；;
+  
+}
+  
+  
+  
+/* 底部元素 */
+.talk-input { 
+width: 100%; 
+font-size: 30rpx; 
+padding: 20rpx 0; 
+padding-left: 30rpx; 
+/* box-sizing: border-box; */
+color: white; 
+border-top-left-radius: 5%;
+border-top-right-radius: 5%;
+  
+}
+  
+ 
+.fabu-input { 
+background: red; 
+font-size: 26rpx; 
+color: #fff;
+width: 127rpx; 
+height: 60rpx; 
+line-height: 60rpx;
+text-align: center; 
+border-radius: 30rpx; 
+padding: 0;
+  
+}
+  
+.cf-bg {
+position: fixed; 
+top: 0; 
+left: 0; 
+bottom: 0; 
+right: 0; 
+background-color: transparent; 
+z-index: 99;
+  
+}
